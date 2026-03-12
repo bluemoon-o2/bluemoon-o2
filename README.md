@@ -31,10 +31,6 @@
 
 <!-- Connect & Social -->
 <div align="center">
-  <a href="https://www.zhihu.com/people/jian-ke-ui" target="_blank"><img src="https://img.shields.io/badge/知乎-0084FF?style=for-the-badge&logo=zhihu&logoColor=white" /></a>
-  &nbsp;&nbsp;
-  <a href="https://xhslink.com/m/qHnQf2kwi7" target="_blank"><img src="https://img.shields.io/badge/小红书-FF2442?style=for-the-badge&logo=xiaohongshu&logoColor=white" /></a>
-  &nbsp;&nbsp;
   <a href="https://blog.tensorplay.cn" target="_blank"><img src="https://forthebadge.com/api/badges/generate?panels=2&primaryLabel=TensorPlay&secondaryLabel=Blog&primaryBGColor=%23FF6B35&primaryTextColor=%23FFFFFF&secondaryBGColor=%23004E89&secondaryTextColor=%23FFFFFF&primaryFontSize=12&primaryFontWeight=600&primaryLetterSpacing=2&primaryFontFamily=Roboto&primaryTextTransform=uppercase&secondaryFontSize=12&secondaryFontWeight=900&secondaryLetterSpacing=2&secondaryFontFamily=Montserrat&secondaryTextTransform=uppercase&primaryIcon=airplayaudio&primaryIconColor=%23FFFFFF&primaryIconSize=17&primaryIconPosition=left" /></a>
   &nbsp;&nbsp;
   <a href="mailto:zlx@tensorplay.cn"><img src="https://img.shields.io/badge/Email-zlx%40tensorplay.cn-0078D4?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
