@@ -12,11 +12,16 @@
 <br/><br/>
 
 <a href="https://status.tensorplay.cn">
-  <img
-    src="https://raw.githubusercontent.com/lexing-2026/lexing-2026/gh-pages/status.svg"
-    alt="TensorPlay System Status"
-    height="32"
-  />
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/lexing-2026/lexing-2026/gh-pages/status-dark.svg"
+    />
+    <img
+      src="https://raw.githubusercontent.com/lexing-2026/lexing-2026/gh-pages/status.svg"
+      alt="TensorPlay System Status"
+    />
+  </picture>
 </a>
 
 <br/>

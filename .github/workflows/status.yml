@@ -1,0 +1,43 @@
+name: Update status badge
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  status:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout gh-pages
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+
+      - name: Generate status badges
+        uses: lexing-2026/status-badge-action@v1
+        with:
+          status_url: https://status.tensorplay.cn
+          title: TensorPlay status
+          output: status.svg
+          output_dark: status-dark.svg
+          output_adaptive: status-adaptive.svg
+          output_history: status-history.svg
+          output_history_dark: status-history-dark.svg
+          output_history_adaptive: status-history-adaptive.svg
+
+      - name: Publish
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add status*.svg
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: update service status"
+          git push
