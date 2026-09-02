@@ -1,4 +1,4 @@
-name: Update status badge
+name: Deploy profile assets
 
 on:
   schedule:
@@ -12,7 +12,7 @@ permissions:
   contents: write
 
 jobs:
-  status:
+  assets:
     runs-on: ubuntu-latest
 
     steps:
@@ -20,6 +20,14 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: gh-pages
+
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            github-snake.svg
+            github-snake-dark.svg?palette=github-dark
 
       - name: Generate status badges
         uses: lexing-2026/status-badge-action@v1
@@ -33,11 +41,11 @@ jobs:
           output_history_dark: status-history-dark.svg
           output_history_adaptive: status-history-adaptive.svg
 
-      - name: Publish
+      - name: Publish (atomic, no force push)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add status*.svg
+          git add -A
           git diff --cached --quiet && exit 0
-          git commit -m "chore: update service status"
+          git commit -m "chore: update profile assets"
           git push
