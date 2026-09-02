@@ -41,11 +41,10 @@ jobs:
           output_history_dark: status-history-dark.svg
           output_history_adaptive: status-history-adaptive.svg
 
-      - name: Publish (atomic, no force push)
+      - name: Publish (overwrite, no history)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet && exit 0
-          git commit -m "chore: update profile assets"
-          git push
+          git commit -m "Deploy to GitHub pages" --allow-empty
+          git push --force origin gh-pages

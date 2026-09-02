@@ -25,12 +25,6 @@
   </picture>
 </a>
 
-<br/>
-
-<sub>
-<a href="https://status.tensorplay.cn">status.tensorplay.cn ↗</a>
-</sub>
-
 <br/><br/>
 
 [![C++](https://img.shields.io/badge/C++-00599C?style=flat-square\&logo=cplusplus\&logoColor=white)](https://isocpp.org/)
