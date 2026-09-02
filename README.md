@@ -15,11 +15,12 @@
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/lexing-2026/lexing-2026/gh-pages/status-dark.svg"
+      srcset="https://raw.githubusercontent.com/lexing-2026/lexing-2026/gh-pages/status-history-dark.svg"
     />
     <img
-      src="https://raw.githubusercontent.com/lexing-2026/lexing-2026/gh-pages/status.svg"
+      src="https://raw.githubusercontent.com/lexing-2026/lexing-2026/gh-pages/status-history.svg"
       alt="TensorPlay System Status"
+      width="100%"
     />
   </picture>
 </a>
