@@ -4,9 +4,9 @@
 
 <br/>
 
-<a href="https://mega.tensorplay.cn"><picture><source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Caveat&amp;weight=700&amp;size=40&amp;pause=1200&amp;color=E6EDF3&amp;center=true&amp;vCenter=true&amp;width=820&amp;height=58&amp;lines=hi,+I'm+Lexing+Zhang;I+build+open+AI+systems,+end+to+end;cuda+kernels+→+llm+serving+→+agents+→+quadruped+robots" /><img src="https://readme-typing-svg.demolab.com?font=Caveat&amp;weight=700&amp;size=40&amp;pause=1200&amp;color=1F2328&amp;center=true&amp;vCenter=true&amp;width=820&amp;height=58&amp;lines=hi,+I'm+Lexing+Zhang;I+build+open+AI+systems,+end+to+end;cuda+kernels+→+llm+serving+→+agents+→+quadruped+robots" alt="Lexing Zhang" /></picture></a>
+<a href="https://mega.tensorplay.cn"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lexing-2026/lexing-2026/main/typing-lexing-dark.svg" /><img src="https://raw.githubusercontent.com/lexing-2026/lexing-2026/main/typing-lexing-light.svg" alt="Lexing Zhang" /></picture></a>
 
-<a href="https://status.tensorplay.cn"><picture><source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Caveat&amp;size=30&amp;pause=2000&amp;color=22C55E&amp;center=true&amp;vCenter=true&amp;width=820&amp;height=44&amp;lines=currently+shipping+MEGA_Hub+·+TensorPlay+·+go2-embodied-ai;everything+runs+live+—+status+below+↓" /><img src="https://readme-typing-svg.demolab.com?font=Caveat&amp;size=30&amp;pause=2000&amp;color=22C55E&amp;center=true&amp;vCenter=true&amp;width=820&amp;height=44&amp;lines=currently+shipping+MEGA_Hub+·+TensorPlay+·+go2-embodied-ai;everything+runs+live+—+status+below+↓" alt="currently shipping" /></picture></a>
+<a href="https://status.tensorplay.cn"><img src="https://raw.githubusercontent.com/lexing-2026/lexing-2026/main/typing-shipping.svg" alt="currently shipping" /></a>
 
 <br/><br/>
 
