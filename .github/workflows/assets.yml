@@ -20,6 +20,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: gh-pages
+          fetch-depth: 0
 
       - name: Generate contribution snake
         uses: Platane/snk@v3
@@ -41,10 +42,11 @@ jobs:
           output_history_dark: status-history-dark.svg
           output_history_adaptive: status-history-adaptive.svg
 
-      - name: Publish (overwrite, no history)
+      - name: Publish (single squashed commit)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan _deploy
           git add -A
           git commit -m "Deploy to GitHub pages" --allow-empty
-          git push --force origin gh-pages
+          git push --force origin _deploy:gh-pages
